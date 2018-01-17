@@ -1,0 +1,24 @@
+Test cases
+
+1. Validate if the given url is opening properly or not.
+
+
+2. Login panel:
+   i) Validate whether the given email id is entered properly or not.
+   ii)Validate whether the given password is entered properly or not.
+   iii) Validate if the check-box(remember me) is working properly or not.
+   iv)Validate if the login button is working properly or not.
+   v)Validate if the PHPTRAVELS link is being directed to the link when clicked upon.
+   
+3. Validate whether new hotels,new rooms are being added. Also validate the Rooms management.
+   While adding the new hotels or new rooms validate whether the form is filled properly. (Example: when the important field is not filled then the message should appear).
+   
+4. Validate whether new tours are being added using the ADD button.
+
+5. Validate whether the booking is being done properly according to the mode of payment.
+
+6. Validate the help button.
+
+7. Validate the Logout button.
+
+8. Validate the all the fields in Profile page.
