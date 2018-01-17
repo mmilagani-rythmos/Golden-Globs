@@ -1,0 +1,14 @@
+1. Validate whether the url is opening or not.
+
+	http://www.phptravels.net/supplier
+
+2. Validating the login credentials.
+
+3. Validate the Tours, hotels,check whether they can supply as required and add new tours and travles and manage old ones.
+
+4. Validate quick booking functionality and if the booking is done invoice should be generated. 
+
+5. As soon as the booking is done the status will be unpaid and the payment should be done within 24hours and if the payment mode is choosen as payon arrival the status will be in reserved state and if the payment is done through cards/paypal,etc the status will be changed to paid.
+
+6. Payment is not done within 24hours then message should be displayed as "Your booking status is expired".
+
