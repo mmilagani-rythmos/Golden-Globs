@@ -1,0 +1,80 @@
+Test Scenarios
+
+1. Scenario:  Verify  whether user is able to login with valid credentials 
+    
+   Positive: 
+	Given User is able to launch URL
+	When User enters valid credentials for email and password
+	Then the user should able to login and navigate to homepage.
+
+	Negative:
+	Given User is able to launch URL  
+	When User enters Invalid credentials for email and password
+	Then the user is unable to login.
+   
+2.  Scenario: Verify whether the list is being displayed when there is mouse hover on header tabs (Cars, Tours, Hotels).
+	
+	Given User login to the application 
+	When there is a mouse hover on header tab 
+	Then the drop down is displayed 
+	And when user selects an option(tour,hotels) from drop down			   
+	Then the User is able to navigate to a particular page
+
+3. Scenario: Verify if user is able to update his/her account with valid details in profile page. 
+    
+    
+    Given User Login to the application successfully
+	When User Click on the Profile tab.
+	Then page should be navigated to profile page.
+	And User is able to update the details like Address.
+	When clicked on submit button
+	Then the message should appear as changes saved.			 
+				 
+    
+		
+4. Scenario: Verify whether the pop-up is being displayed when clicked on Quick Booking button 
+	
+	Positive scenario:
+	Given User Login to the application successfully 
+	When Click on Quick Booking button.
+	Then Verify A pop-up is displayed with drop-down list
+	And once the options are selected, click on Next button.
+	
+	Negative Scenario: 
+	Given User Login to the application successfully 
+	When Click on Quick Booking button.
+	Then Verify A pop-up is displayed with drop-down list
+	And when options are not selected
+	Then Error message appears.
+				 
+    
+ 5. Scenario: Verify user is able to book Tours through Quick Booking Screen.
+ 
+	Given User is able to Navigate to QuickBookingScreen
+	When User fills the Valid Data in the form and clicks the Book Now button
+	Then User is able to book the tour.
+    
+	
+																	       	
+ 6. Scenario: Verify user able to see his booking status in recent booking screen and is able to edit his booking.
+    
+	
+    Given User is able to login and book a tour
+	When Once the booking is done, the user should be able to see the booking details in the recent booking screen.
+	Then Verify Options like delete,edit and invoice would be seen in the recent booking screen
+	When clicked on delete button
+	Then a pop-up would be displayed.
+	When clicked on OK button
+	Then the message should be deleted.
+	
+
+    
+				 
+				
+				 
+				 
+				 
+				 
+		
+                 
+ 
