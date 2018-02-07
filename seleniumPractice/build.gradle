@@ -29,4 +29,9 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
+dependencies {
+compile "org.seleniumhq.selenium:selenium-java:2.15.0"
+compile "org.testng:testng:6.3.1"
+
+}
 

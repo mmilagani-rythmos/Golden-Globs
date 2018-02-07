@@ -9,13 +9,16 @@ public class BrowserFactory {
 	public static WebDriver driver;
 	public static WebDriver startBrowser(String browsername,String url){
 		if(browsername.equalsIgnoreCase("firefox")){
-	   driver = new FirefoxDriver();
+	    System.setProperty("webdriver.firefox.marionette", "/seleniumPractice/drivers/geckodriver.exe");	
+	    driver = new FirefoxDriver();
 		 
 		}
 		else if(browsername.equalsIgnoreCase("chrome")){
+			System.setProperty("webdriver.chrome.driver", "/seleniumPractice/drivers/chromedriver.exe");
          driver= new ChromeDriver();
 		}
 		else if(browsername.equalsIgnoreCase("IE")){
+			System.setProperty("webdriver.chrome.driver", "/seleniumPractice/drivers/IEDriver.exe");
         driver= new InternetExplorerDriver();
 		 
 		}
