@@ -9,17 +9,14 @@ public class BrowserFactory {
 	public static WebDriver driver;
 	public static WebDriver startBrowser(String browsername,String url){
 		if(browsername.equalsIgnoreCase("firefox")){
-		System.setProperty("webdriver.firefox.marionette", "E:\\Selenium\\geckodriver.exe");
-		driver = new FirefoxDriver();
+	   driver = new FirefoxDriver();
 		 
 		}
 		else if(browsername.equalsIgnoreCase("chrome")){
-		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver.exe");
-		driver= new ChromeDriver();
+         driver= new ChromeDriver();
 		}
 		else if(browsername.equalsIgnoreCase("IE")){
-		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\IEDriverServer_x64_2.53.1\\IEDriverServer.exe");
-		driver= new InternetExplorerDriver();
+        driver= new InternetExplorerDriver();
 		 
 		}
 		driver.manage().window().maximize();

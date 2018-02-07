@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30057" started-at="2018-02-06T10:26:14Z" finished-at="2018-02-06T10:26:44Z">
+  <suite name="Default suite" duration-ms="39574" started-at="2018-02-07T08:52:49Z" finished-at="2018-02-07T08:53:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30057" started-at="2018-02-06T10:26:14Z" finished-at="2018-02-06T10:26:44Z">
+    <test name="Default test" duration-ms="39574" started-at="2018-02-07T08:52:49Z" finished-at="2018-02-07T08:53:29Z">
       <class name="com.phptravelssupplier.testcases.Verifydelete">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.phptravelssupplier.testcases.Verifydelete@174d20a]" name="start" is-config="true" duration-ms="16414" started-at="2018-02-06T15:56:14Z" finished-at="2018-02-06T15:56:30Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.phptravelssupplier.testcases.Verifydelete@66d2e7d9]" name="start" is-config="true" duration-ms="22859" started-at="2018-02-07T14:22:49Z" finished-at="2018-02-07T14:23:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="verifyDelete()[pri:0, instance:com.phptravelssupplier.testcases.Verifydelete@174d20a]" name="verifyDelete" duration-ms="12494" started-at="2018-02-06T15:56:30Z" finished-at="2018-02-06T15:56:43Z">
+        <test-method status="PASS" signature="verifyDelete()[pri:0, instance:com.phptravelssupplier.testcases.Verifydelete@66d2e7d9]" name="verifyDelete" duration-ms="14335" started-at="2018-02-07T14:23:12Z" finished-at="2018-02-07T14:23:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDelete -->
-        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.phptravelssupplier.testcases.Verifydelete@174d20a]" name="shutdown" is-config="true" duration-ms="1090" started-at="2018-02-06T15:56:43Z" finished-at="2018-02-06T15:56:44Z">
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.phptravelssupplier.testcases.Verifydelete@66d2e7d9]" name="shutdown" is-config="true" duration-ms="2282" started-at="2018-02-07T14:23:26Z" finished-at="2018-02-07T14:23:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
